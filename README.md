@@ -1,5 +1,5 @@
-# NEON COAST — Live Edition
+# NEON ARCADE
 
-Open index.html in an executable browser context or publish it on GitHub Pages. This is a standalone game with bundled V1 and V2. A fresh session unlocks V2 after 150 seconds of foreground play (excluding paused menus). Progress in the current session is retained. Existing V2 saves restore directly. The release gate requires a strict superset of the previous feature list. The original V1 is preserved separately in v1.html. No remote updates are configured.
+Three original browser games for touch-first play: `gta.html` (NEON COAST, fully unlocked), `baja.html` (BAJA BLAST BRAPTOR, WebGL), `orange.html` (ORANGE CAT LADY, WebGL). The root index is the arcade menu. `v1.html` remains an unlisted legacy build. Local saves stay under the original origin; Baja retains its previous save key. Orange has its own save key. Original procedural vehicle and character art; no uploaded reference photos. No external dependencies.
 
-V2 adds a south beach district, pedestrians, checkpoint races, garage paint and tuning, a safehouse, original synthesized radio, day/night tint and local save. The map is cached and the pixel ratio capped for performance. Real iPhone testing is pending. Browser tests used Chromium with simulated animation timestamps and mocked local storage; WebKit unavailable.
+Gameplay tests use mocked browser and graphics APIs. Real Safari rendering, visual fidelity and frame rates require device testing. GitHub Pages publishes the main branch when configured.
